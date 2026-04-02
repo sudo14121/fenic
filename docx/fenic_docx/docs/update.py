@@ -9,6 +9,3 @@ for filename, url in sheets.items():
     df = pd.read_csv(url).fillna("")
     with open(filename, "w", encoding="utf-8") as f:
         f.write(df.to_markdown(index=False))
-
-print("Готово")
-input("Нажми Enter чтобы выйти") 
