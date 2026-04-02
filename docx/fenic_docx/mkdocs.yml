@@ -1,0 +1,9 @@
+site_name: Робот Фенек
+nav:
+  - О проекте: index.md
+  - Аппаратная часть: hardware.md
+  - Код низкого уровня: low_level.md
+  - Код raspberry: rpi_level.md
+theme: readthedocs
+markdown_extensions:
+  - tables
