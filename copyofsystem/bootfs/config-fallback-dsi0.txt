@@ -1,0 +1,8 @@
+# Fallback if primary DSI config shows black screen:
+# 1. Rename this file to config.txt on boot partition
+# 2. Or replace the dtoverlay line in [all] with the line below
+#
+# Same panel, but force DSI0 (some Pi 5 cam/disp wiring):
+
+[all]
+dtoverlay=vc4-kms-dsi-waveshare-panel-v2,4_0_inch_c,dsi0

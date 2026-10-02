@@ -1,0 +1,5 @@
+# Fallback #2 — older Waveshare DSI overlay (4.0" 720x720)
+# Replace dtoverlay line in [all] section of config.txt with:
+
+[all]
+dtoverlay=vc4-kms-dsi-waveshare-panel,4_0_inchC,rotation=270

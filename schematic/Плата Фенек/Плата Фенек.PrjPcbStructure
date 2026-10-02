@@ -1,3 +1,2 @@
-Record=TopLevelDocument|FileName=?1.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=?1.SchDoc|FileName=?3.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=?1.SchDoc|FileName=?3_2.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=?3.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=?3.SchDoc|FileName=?3_2.SchDoc|SheetNumber=2

@@ -1,0 +1,3 @@
+# Waveshare 4.0" 720x720 on Pi 5 cam/disp connector
+# Enable via "include hardware.dsi.txt" in config.txt [all] section
+dtoverlay=vc4-kms-dsi-waveshare-panel-v2,4_0_inch_c

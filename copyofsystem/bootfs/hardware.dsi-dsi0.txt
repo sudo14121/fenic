@@ -1,0 +1,2 @@
+# Fallback if panel stays black — use instead of hardware.dsi.txt
+dtoverlay=vc4-kms-dsi-waveshare-panel-v2,4_0_inch_c,dsi0

@@ -1,0 +1,37 @@
+# For more options and information see
+# http://rptl.io/configtxt
+# Pupper-v3 / Fenek — fast boot, hardware via auto-detect + optional includes
+
+dtparam=spi=on
+dtparam=audio=on
+
+# Auto-detect when camera / DSI display plugged into cam/disp (no timeout if absent)
+camera_auto_detect=1
+display_auto_detect=1
+
+auto_initramfs=1
+
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+disable_fw_kms_setup=1
+
+arm_64bit=1
+disable_overscan=1
+arm_boost=1
+
+[cm4]
+otg_mode=1
+
+[cm5]
+dtoverlay=dwc2,dr_mode=host
+
+[all]
+dtparam=i2c_arm=on,i2c_arm_baudrate=100000
+usb_max_current_enable=1
+
+# --- Optional robot hardware (uncomment when installed) ---
+# If cam/disp Waveshare does NOT appear with display_auto_detect=1, uncomment:
+# include hardware.dsi.txt
+#
+# When HiFiBerry HAT is on the board, uncomment:
+# include hardware.hats.txt

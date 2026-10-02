@@ -1,0 +1,32 @@
+{
+  "created": "2026-09-12",
+  "diskNumber": 2,
+  "diskPath": "\\\\.\\PhysicalDrive2",
+  "diskSizeBytes": 64088965120,
+  "diskFriendlyName": "Generic- SD/MMC/MS PRO",
+  "partitions": [
+    {
+      "number": 1,
+      "label": "bootfs",
+      "driveLetter": "F",
+      "offsetBytes": 4194304,
+      "sizeBytes": 536870912,
+      "filesystem": "FAT32",
+      "backupPath": "bootfs/"
+    },
+    {
+      "number": 2,
+      "label": "rootfs",
+      "driveLetter": null,
+      "offsetBytes": 541065216,
+      "sizeBytes": 63547899904,
+      "filesystem": "ext4",
+      "backupPath": "rootfs.img (raw, run dump-rootfs.ps1)"
+    }
+  ],
+  "diagnostics": {
+    "bootVolumeHealth": "Warning / Full Repair Needed",
+    "sdWriteSpeedMBps": 10.8,
+    "osIssue": "Raspberry Pi reference 2024-11-19"
+  }
+}

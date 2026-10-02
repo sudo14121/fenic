@@ -1,0 +1,2 @@
+# HiFiBerry DAC — enable via "include hardware.hats.txt" in config.txt
+dtoverlay=hifiberry-dac
