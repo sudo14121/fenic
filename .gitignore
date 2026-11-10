@@ -1,1 +1,7 @@
 construction/fox/OldVersions/
+
+# больше лимита GitHub в 100 МБ, файлы остаются только на диске
+/плакат.pdf
+docx/плакат.pdf
+docx/плакатсжатый.pdf
+construction/fox/body/tail2.stl
