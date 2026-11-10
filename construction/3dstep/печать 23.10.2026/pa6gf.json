@@ -1,0 +1,104 @@
+{
+"type": "filament",
+"name": "Bambu PA6-GF @Creality",
+"from": "system",
+"instantiation": "true",
+"inherits": "Generic PA-CF",
+"filament_id": "BAMBU_PA6_GF_CUSTOM",
+"filament_type": [
+"PA-GF"
+],
+"filament_vendor": [
+"Bambu Lab"
+],
+"filament_density": [
+"1.21"
+],
+"filament_cost": [
+"45"
+],
+"filament_diameter": [
+"1.75"
+],
+"filament_flow_ratio": [
+"0.985"
+],
+"filament_max_volumetric_speed": [
+"10"
+],
+"nozzle_temperature": [
+"280"
+],
+"nozzle_temperature_initial_layer": [
+"285"
+],
+"nozzle_temperature_range_high": [
+"295"
+],
+"nozzle_temperature_range_low": [
+"270"
+],
+"hot_plate_temp": [
+"95"
+],
+"hot_plate_temp_initial_layer": [
+"100"
+],
+"textured_plate_temp": [
+"95"
+],
+"textured_plate_temp_initial_layer": [
+"100"
+],
+"chamber_temperature": [
+"55"
+],
+"fan_cooling_layer_time": [
+"15"
+],
+"fan_max_speed": [
+"20"
+],
+"fan_min_speed": [
+"0"
+],
+"close_fan_the_first_x_layers": [
+"4"
+],
+"bridge_fan_speed": [
+"45"
+],
+"overhang_fan_speed": [
+"30"
+],
+"additional_cooling_fan_speed": [
+"0"
+],
+"filament_retraction_length": [
+"0.8"
+],
+"filament_retract_restart_extra": [
+"0"
+],
+"filament_retraction_speed": [
+"35"
+],
+"filament_deretraction_speed": [
+"30"
+],
+"filament_z_hop": [
+"0.3"
+],
+"filament_z_hop_types": [
+"Auto Lift"
+],
+"pressure_advance": [
+"0.04"
+],
+"filament_start_gcode": [
+"; Bambu PA6-GF custom startup\n; Pre-heat chamber recommendation: wait until internal temp reaches 50C+\nM141 S55 ; Set chamber temp target if hardware supports"
+],
+"filament_end_gcode": [
+"; Filament cooling end\nM141 S0"
+]
+}
